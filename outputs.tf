@@ -68,3 +68,4 @@ output "tags" {
   description = "List of tags of instances"
   value       = ["${aws_instance.web-1.*.tags}"]
 }
+
