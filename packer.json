@@ -29,7 +29,7 @@
       "sudo cp webhooktesting/style.css /usr/share/nginx/html/style.css",
       "sudo cp webhooktesting/scorekeeper.js /usr/share/nginx/html/scorekeeper.js",
       "sudo service nginx start",
-      "sudo chkconfig nginx on"
+      "sudo systemctl enable nginx"
       ]
   }]
 }
